@@ -4,7 +4,8 @@ public class ComputerTest {
 	public static void main(String[] args) {
 					
 		Computer computer = new Computer();
-		computer.computerInfo();
+		Computer computer1 = new Computer("Apple", "MacBook Air", "MacOS Mojave", 800, 'A', false);
+		
 				
 	}	
 

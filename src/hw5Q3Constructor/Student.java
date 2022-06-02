@@ -2,7 +2,7 @@ package hw5Q3Constructor;
 
 public class Student {
 	public String stName;
-	public int stID;
+	public byte stID;
 	public  char sex;
 	public boolean isProgrammer;
 	public float grade;
@@ -13,10 +13,10 @@ public class Student {
 	}
 	
 	//Parameterized constructor	
-	public Student(String stName, int stID, char sex, boolean
+	public Student(String stName, byte stID, char sex, boolean
 			isProgrammer, float grade) {
 		this.stName = stName;
-		this.stID = stID;
+ 		this.stID = stID;
 		this.sex =sex;
 		this.isProgrammer =isProgrammer;
 		this.grade=grade;
